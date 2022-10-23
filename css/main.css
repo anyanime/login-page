@@ -1,0 +1,59 @@
+html {
+    height: 100vh;
+    background-image: url('../login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 350px;
+    margin: 8% auto;
+    padding: 6px;
+    background: rgba(56, 10, 10, 0.50);
+    box-shadow: 0, 0, 20px rgb(50, 50, 50);
+    border-radius: 10px;
+}
+
+.header {
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+
+input, button {
+    width: 300px;
+    height: 40px;
+    margin: 20px;
+    border: none;
+    padding-left: 3px;
+    box-sizing: border;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+.btn {
+    color: white;
+    background: blue;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 320px;
+}
+
+input {
+    outline-style: none;
+    background: rgba(0,0,0,0.30);
+    padding-left: 20px;
+}
+
+.btn:hover {
+    background: cornflowerblue;
+    color: rgb(0, 88, 139);
+}
+
+input:hover {
+    border-bottom: #606060;
+    background: #ccc;
+}
